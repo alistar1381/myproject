@@ -1,3 +1,4 @@
+# Ternary search
 li = input("Enter the list separated by comma:").split(",")
 li.sort()
 item = input("Enter the item:")
