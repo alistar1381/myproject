@@ -11,9 +11,9 @@ def binary_search(begin, end, item, li):
         print("Not Found")
     
 
-li = input("Enter the list separated by comma:").split(",")
+li = [int(i) for i in input("Enter a list separated with comma:").split(",")]
 li.sort()
 begin = 0
 end = len(li) - 1
-item = input("Enter item:")
+item = int(input("Enter item:"))
 binary_search(begin, end, item, li)

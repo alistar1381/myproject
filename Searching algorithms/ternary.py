@@ -1,7 +1,7 @@
 # Ternary search
-li = input("Enter the list separated by comma:").split(",")
+li = [int(i) for i in input("Enter a list separated with comma:").split(",")]
 li.sort()
-item = input("Enter the item:")
+item = int(input("Enter item:"))
 left = 0
 right = len(li) - 1
 while left <= right:

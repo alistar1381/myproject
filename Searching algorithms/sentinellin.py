@@ -1,6 +1,6 @@
 # sentinel linear search
-li = input("Enter the list separated with comma:").split(",")
-item = input("Enter the item you want to find:")
+li = [int(i) for i in input("Enter a list separated with comma:").split(",")]
+item = int(input("Enter item:"))
 last, li[-1] = li[-1], item
 i = 0
 while li[i] != item: 
